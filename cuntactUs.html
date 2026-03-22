@@ -1,0 +1,79 @@
+<!--Contact ua page-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="styles.css">
+     
+  </head>
+  <body>
+    <div id="nvBar"><!--this is the navigation bar that include the links for the interior pages + the logo-->
+      <img src="./images/logo.png">
+      <nav>
+          <ul>
+              <li><a href="./index.html.html">Home</a></li>
+              <li><a href="./GeneralInfo.html">General information</a></li>
+              <li><a href="./Menu.html">Mnue</a></li>
+              <li><a href="./Reservation.html">Reservations</a></li>
+              <li><a href="./cuntactUs.html">Contact us</a></li>
+          </ul>
+      </nav>
+  </div>
+    <div class="container">
+      <h1>Contact Us</h1>
+      <!-- Send a message form -->
+      <h2>Send a Message</h2>
+      <form action="http://norton.open.ac.uk/reflect.php" method="post">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Your Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea><br/>
+
+        <input type="submit" value="Submit" />
+      </form>
+
+      <!-- List of key persons -->
+      <h2>Need more help?</h2>
+      <h3>contact our amaizing team:</h3>
+      <br />
+      <ul>
+        <li class="key-person">
+          <strong>Raed Hassan</strong> - Owner<br />
+          Email: raed@gmailcom.com
+        </li>
+        <li class="key-person">
+          <strong>Raghad Alkhuddir</strong> - CEO<br />
+          Email: rghdrayd5@gmail.com
+        </li>
+        
+        <li class="key-person">
+          <strong>Rawan Raed</strong> - Marketing Manager<br />
+          Email: rawan@gmailcom.com
+        </li>
+      </ul>
+    </div>
+
+    <!-- Address and P.O Box -->
+    <address>
+      King Khalid Road<br />
+      Al Aziziyah, Al Khobar <br />
+      P.O. Box: 34716
+    </address>
+
+    <!-- Map -->
+    <div id="map">
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14321.69109315939!2d50.19316823022462!3d26.1829221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3e49c5eec586bdcb%3A0x15d2ca488b3a15bb!2sAl-Seef%20Restaurant%20%26%20Cafe!5e0!3m2!1sar!2ssa!4v1710956367869!5m2!1sar!2ssa"
+        width="600"
+        height="400"
+        ></iframe>
+    </div>
+  </body>
+</html>
+<!--End of contact us page-->

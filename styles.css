@@ -1,0 +1,239 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Mirza:wght@400;500;600;700&display=swap');
+
+/* Global Styles */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Mirza", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* General Container Styling */
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* Navigation Bar */
+#nvBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: pink;
+}
+
+#nvBar img {
+    width: 80px;
+    margin-left: 80px;
+}
+
+#nvBar ul {
+    list-style: none;
+    display: flex;
+    margin-right: 100px;
+}
+
+#nvBar ul li a {
+    text-decoration: none;
+    padding: 15px 20px;
+    color: white;
+    font-weight: 600;
+}
+
+#nvBar ul li a:hover {
+    border-bottom: 2px solid white;
+}
+
+/* Home Page */
+header {
+    height: 100vh;
+    background: url('./images/photo4.jpg') center center/cover no-repeat;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+.content h1 {
+    font-size: 60px;
+    color: white;
+}
+
+.content p {
+    margin: 20px 0 40px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Section: Vision and Mission */
+#VisionMission {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+#VisionMission h2 {
+    font-size: 50px;
+    color: pink;
+    margin-bottom: 20px;
+}
+
+#VisionMission p {
+    font-weight: 500;
+    line-height: 1.5;
+}
+
+/* Section: Gallery */
+#gallery {
+    background-color: rgb(178, 231, 226);
+    padding: 8rem 0 6rem;
+}
+
+#gallery h2 {
+    color: white;
+    font-size: 40px;
+    text-align: center;
+}
+
+#gallery .imiges img {
+    width: 260px;
+    height: 200px;
+    border-radius: 20px;
+    margin: 20px;
+}
+
+/* Menu Page */
+#menu {
+    padding: 25px 0;
+}
+
+#menu h1 {
+    padding: 25px 0;
+    text-align: center;
+    font-size: 2rem;
+    color: white;
+}
+
+#menuRow {
+    display: flex;
+    padding: 0 100px;
+}
+
+#menuClo {
+    box-shadow: 2px 2px 2px rgb(231, 178, 205);
+    border: 1px solid rgb(231, 178, 205);
+    background-color: white;
+    margin: 10px;
+    padding: 10px;
+    flex: 1;
+}
+
+#menuClo h2 {
+    background-color: pink;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
+
+#images {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    padding: 5px;
+    border: 2px solid pink;
+}
+
+#images img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+}
+
+/* Reservations Page */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: pink;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: pink;
+}
+
+input[type="text"], 
+input[type="date"], 
+input[type="time"], 
+input[type="tel"], 
+input[type="email"], 
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="submit"] {
+    background-color: pink;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background-color: palevioletred;
+}
+
+/* Contact Us Page */
+address {
+    text-align: center;
+    margin-bottom: 20px;
+    color: pink;
+}
+
+#map {
+    margin: 20px auto;
+    width: 50%;
+    max-width: 600px;
+}
+
+.key-person {
+    margin-bottom: 10px;
+}
+
